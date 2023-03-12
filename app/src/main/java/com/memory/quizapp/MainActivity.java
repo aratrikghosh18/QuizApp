@@ -59,7 +59,8 @@ public class MainActivity extends AppCompatActivity {
             quizSQLiteDBHelper.deleteDBTableData();
             jsonInputStream = this.getAssets().open("QuestionsJSON.json");
             jsonByte = new byte[jsonInputStream.available()];
-            jsonInputStream.read(jsonByte);
+            int x = jsonInputStream.read(jsonByte);
+            System.out.println(x);
             jsonFileString = new String(jsonByte);
             jsonObject = new JSONObject(jsonFileString);
             quizSQLiteDBHelper.addSettingsToDB(settingsVersionProperty,jsonObject.getString("version"));
