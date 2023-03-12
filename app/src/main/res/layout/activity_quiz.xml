@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/headerlayout"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/selectedcategorytextview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Category"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/quizscoretextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/headerlayout"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginEnd="8dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/questioncardview"
+            app:cardElevation="7.0dp"
+            app:cardCornerRadius="7.0dp"
+            android:layout_margin="7dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/questiontextview"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                android:text="Question"
+                android:layout_centerInParent="true"
+                android:gravity="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/option1cardview"
+            android:layout_below="@+id/questioncardview"
+            app:cardElevation="7.0dp"
+            app:cardCornerRadius="7.0dp"
+            android:layout_margin="7dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/option1textview"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                android:text="Option1"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:onClick="optionClicked" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/option2cardview"
+            android:layout_below="@+id/option1cardview"
+            app:cardElevation="7.0dp"
+            app:cardCornerRadius="7.0dp"
+            android:layout_margin="7dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/option2textview"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                android:text="Option2"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:onClick="optionClicked"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/option3cardview"
+            android:layout_below="@+id/option2cardview"
+            app:cardElevation="7.0dp"
+            app:cardCornerRadius="7.0dp"
+            android:layout_margin="7dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/option3textview"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                android:text="Option3"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:onClick="optionClicked"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/option4cardview"
+            android:layout_below="@+id/option3cardview"
+            app:cardElevation="7.0dp"
+            app:cardCornerRadius="7.0dp"
+            android:layout_margin="7dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/option4textview"
+                android:textSize="19sp"
+                android:textColor="@color/black"
+                android:text="Option4"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:onClick="optionClicked"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,131 @@
+{
+"version":"1",
+"quiz":[
+	{
+		"category":"Space",
+		"question":"Which Planet is closest to the Sun?",
+		"option_1":"Mercury",
+		"option_2":"Venus",
+		"option_3":"Mars",
+		"option_4":"Neptune",
+		"answer":"Mercury"
+	},
+	{
+		"category":"Space",
+		"question":"Which is the hottest Planet?",
+		"option_1":"Jupiter",
+		"option_2":"Mars",
+		"option_3":"Mercury",
+		"option_4":"Venus",
+		"answer":"Venus"
+	},
+	{
+		"category":"India",
+		"question":"In which year did India become a Republic?",
+		"option_1":"1951",
+		"option_2":"1947",
+		"option_3":"1957",
+		"option_4":"1950",
+		"answer":"1950"
+	},
+	{
+		"category":"India",
+		"question":"What is India's space agency called?",
+		"option_1":"Indian Space Organization",
+		"option_2":"Indian Space Research Organization",
+		"option_3":"Aeronautics Division of India",
+		"option_4":"Department of Space",
+		"answer":"Indian Space Research Organization"
+	},
+	{
+		"category":"Science",
+		"question":"Which is the hardest natural substance on Earth?",
+		"option_1":"Rock",
+		"option_2":"Gold",
+		"option_3":"Diamond",
+		"option_4":"Iron",
+		"answer":"Diamond"
+	},
+	{
+		"category":"Science",
+		"question":"How much time it takes for light to travel from Sun to Earth?",
+		"option_1":"120 seconds",
+		"option_2":"10 minutes",
+		"option_3":"12 minutes",
+		"option_4":"480 seconds",
+		"answer":"480 seconds"
+	},
+	{
+		"category":"Sports",
+		"question":"Which city hosted the 2022 Commonwealth Games?",
+		"option_1":"Durban",
+		"option_2":"Birmingham",
+		"option_3":"Manchester",
+		"option_4":"Delhi",
+		"answer":"Birmingham"
+	},
+	{
+		"category":"Sports",
+		"question":"Which football player has the highest number of international goals for his country?",
+		"option_1":"Cristiano Ronaldo",
+		"option_2":"Diego Maradona",
+		"option_3":"Pele",
+		"option_4":"Michel Platini",
+		"answer":"Cristiano Ronaldo"
+	},
+	{
+		"category":"Country",
+		"question":"Which country has the longest coastline in the world?",
+		"option_1":"Canada",
+		"option_2":"USA",
+		"option_3":"India",
+		"option_4":"Russia",
+		"answer":"Canada"
+	},
+	{
+		"category":"Country",
+		"question":"What is the national animal of Scotland?",
+		"option_1":"Dragon",
+		"option_2":"Unicorn",
+		"option_3":"Golden Eagle",
+		"option_4":"Wildcat",
+		"answer":"Unicorn"
+	},
+	{
+		"category":"History",
+		"question":"Which country has the most number of Pyramids?",
+		"option_1":"Egypt",
+		"option_2":"Mexico",
+		"option_3":"Greece",
+		"option_4":"Sudan",
+		"answer":"Sudan"
+	},
+	{
+		"category":"History",
+		"question":"In which year did French Revolution start?",
+		"option_1":"1789",
+		"option_2":"1765",
+		"option_3":"1793",
+		"option_4":"1778",
+		"answer":"1789"
+	},
+	{
+		"category":"Literature",
+		"question":"Which author is the creator of Hercule Poirot?",
+		"option_1":"Sir Arthur Conan Doyle",
+		"option_2":"Agatha Christie",
+		"option_3":"Georges Simenon",
+		"option_4":"Charles Dickens",
+		"answer":"Agatha Christie"
+	},
+	{
+		"category":"Literature",
+		"question":"Who accompanies Sherlock Holmes in many of his cases?",
+		"option_1":"Arthur Hastings",
+		"option_2":"Charles Rogers",
+		"option_3":"John Watson",
+		"option_4":"Captain Robinson",
+		"answer":"John Watson"
+	}
+]
+}
